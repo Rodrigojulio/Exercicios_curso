@@ -1,0 +1,56 @@
+'''
+MODULO 01
+Na estrutura de laços em python você tem if, if-else e elif -> sendo o elif permite que você teste duas condições,
+de forma sequencial.
+sempre que puder utilizar eval.
+
+As estruturas de decisão são: IF, IF-ELSE E ELIF
+são estruturas que o valor da condição percore a estrutura montada.
+Ex:'''if <condição 1>:
+2     Bloco de código que será executado caso condição seja True
+3     elif <condição 2>:
+4     Bloco de código que será executado caso condição 1 seja False e condição 2 seja True
+5     else:
+6     Bloco de código que será executado caso condição 1 seja False e condição 2 seja False
+7     Instrução fora do if'''
+
+A estrutura de condição FOR
+na sua sintaxe ela tem por definição que depois de de colocar (FOR) você deve indicar a variavel (IN) e a sequencia
+de repetição. (lembrese de sempre colocar o :
+ex: '''for <variavel> in <sequência>:
+            Bloco que sera repetido para todos os itens da sequência
+       intrução para fora do for'''
+
+Estrutura de repetição WHILE
+na estrutura de repetição WHILE a condição continuara sendo repetida até ser informada a instrução para sair do laço
+de repetição WHILE
+Ex: ''' palavra = input('Entre com uma palavra: ')
+2 while palavra != 'sair':
+3 palavra = input('Digite sair para encerrar o laço: ')
+4 print('Você digitou sair e agora está fora do laço')'''
+
+Instruções auxiliares BREAK, CONTINUE E PASS
+BREAK -> a instrução ela interrompe as repetições dos laços FOR e WHILE.
+Ex:
+while True:
+    palavra = input('Entre com uma palavra: ')
+    if palavra == 'sair':
+        break
+ print('Você digitou sair e agora está fora do laço')
+
+ Instruçaõ CONTINUE
+ a instrução atua no laço de repetição FOR e WHILE, como na instrução BREAk, ela interrompe apenas a interção corrente, ]
+ fazendo com o que o laço passe para a próxima interação.
+
+Instrução PASS
+Atua direto no IF permitindo que ela seja escrita sem outras intruções a serem executadas caso a condição seja verdadeira
+Ex caso qqueiramos impreimir apenas os numeros impares
+for num in range(1, 11):
+    if num % 2 == 0:
+        pass
+ else:
+    print(num)
+ print('Laço encerrado')
+
+MODULO 02
+
