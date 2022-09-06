@@ -168,9 +168,82 @@ def regressiva(x):
         print(x)
         regressiva(x-1)
 '''
+# MODULO 3
+'''
+def taximetro(distancia, multiplicador=1):
+    largada = 3
+    km_rodado = 2
+    valor = (largada + distancia * km_rodado) * multiplicador
+    return valor
 
+
+pagamento = taximetro (3.5)
+print(pagamento)
+'''
+'''
 def fatorial(n):
+    fat = 1
     if n == 0 or n == 1:
+        return fat
+    else:
+        for x in range(2, n + 1):
+            fat = fat * x
+            return fat
+'''
+'''
+def fibo(n):
+    'Determina o n-ésimo termo da sequêsncia de Fibonacci'
+    if n == 1 or n == 2:
         return 1
     else:
-        return n*fatorial(n-1)
+        return fibo(n -1 ) + fibo(n -2)
+
+print(help(fibo))
+'''
+
+'''
+# função de raiz quadrada
+def calculaDelta(coef1, coef2, coef3):
+    #delta da eq. 2ª grau = b^2-4.a.c
+    delta1 = coef2*coef2 - 4*coef1*coef3
+    return delta1
+
+a = eval(input('Entre comm o coeficinete da equação: '))
+b = eval(input('Entre comm o coeficinete da equação: '))
+c = eval(input('Entre comm o coeficinete da equação: '))
+
+delta = calculaDelta(a, b, c)
+
+
+print(f'O valor calculado do delta foi {delta}')
+
+#delta > 0 : equação e, 2 raizes reais
+#delta = 0 : equação tem 1 raiz real
+#delta < 0 : equação não tem raiz real
+
+if delta > 0:
+    print('Aequação tem 2 raizes. ')
+elif delta == 0:
+    print('equação tem 1 raiz real. ')
+else:
+    print('equação não tem raiz real')
+'''
+'''
+def func1(x):
+    x = 10
+    print(x)
+
+
+
+x = 0
+print(x)
+func1(x)
+print(x)
+'''
+'''
+def rec(n):
+    if n < 2:
+        return rec(n -1)
+
+print(rec(1))
+'''
