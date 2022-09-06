@@ -1,0 +1,30 @@
+# MODULO 1 -> Definir Conceitos Gerais da Orientação a Objetos.
+
+o POO com e descritro como processos orientados a objetos tem como sua finalida interpretar uma necessidade do mundo real,
+ao ponto de escrver ela no mundo computacinal. explos:
+
+obj. mund real      obj. computacional
+CARACTERISTIAS --> ATRIBUTOS
+
+COMPORTAMENTO --> OPERAÇÕES
+
+devese analisar o mundo real e identificar objetos que devem fazer parte da solução do problema, para cada objeto
+identificado levantam-se os atributos, que descreve os objetos e as operações a serem executadas sobre esses objetos.
+
+
+
+
+
+
+
+
+
+
+
+
+# MODULO 2 -> Descrever Conceitos básicos da programação orientada a objetos na linguagem python
+
+# MODULO 3 -> Descrever os conceitos da orientação a objetos copmo herança e polimorfismo.
+
+# MODULO 4 -> Comparar a implementação dos conceitos orientados a objetos aplicados em python com outras linguagens
+orientadas a objejetos existentes no mercado
